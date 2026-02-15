@@ -1,0 +1,120 @@
+{
+  "name": "My Dev Environment",
+  "description": "Full-stack development environment setup",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "id": "cli-packages-mac",
+      "title": "CLI Packages",
+      "description": "Installing command-line developer tools via Homebrew",
+      "type": "packages",
+      "platform": ["darwin"],
+      "config": {
+        "source": "packages/brewfile.txt",
+        "kind": "formulae"
+      }
+    },
+    {
+      "id": "cli-packages-linux",
+      "title": "CLI Packages",
+      "description": "Installing command-line developer tools via apt-get",
+      "type": "packages",
+      "platform": ["linux"],
+      "config": {
+        "source": "packages/apt-packages.txt",
+        "kind": "formulae"
+      }
+    },
+    {
+      "id": "cli-packages-win",
+      "title": "CLI Packages",
+      "description": "Installing command-line developer tools via Chocolatey",
+      "type": "packages",
+      "platform": ["win32"],
+      "config": {
+        "source": "packages/choco-packages.txt",
+        "kind": "formulae"
+      }
+    },
+    {
+      "id": "gui-apps-mac",
+      "title": "GUI Applications",
+      "description": "Installing desktop applications via Homebrew Cask",
+      "type": "packages",
+      "platform": ["darwin"],
+      "config": {
+        "source": "packages/casks.txt",
+        "kind": "casks"
+      }
+    },
+    {
+      "id": "gui-apps-linux",
+      "title": "GUI Applications",
+      "description": "Installing desktop applications via apt-get",
+      "type": "packages",
+      "platform": ["linux"],
+      "config": {
+        "source": "packages/apt-gui.txt",
+        "kind": "formulae"
+      }
+    },
+    {
+      "id": "gui-apps-win",
+      "title": "GUI Applications",
+      "description": "Installing desktop applications via Chocolatey",
+      "type": "packages",
+      "platform": ["win32"],
+      "config": {
+        "source": "packages/choco-gui.txt",
+        "kind": "formulae"
+      }
+    },
+    {
+      "id": "shell-setup",
+      "title": "Shell Setup",
+      "description": "Installing Oh My Zsh and plugins",
+      "type": "shell",
+      "platform": ["darwin", "linux"],
+      "config": {
+        "framework": "ohmyzsh",
+        "plugins": ["zsh-autosuggestions", "zsh-syntax-highlighting"]
+      }
+    },
+    {
+      "id": "dotfiles",
+      "title": "Dotfiles",
+      "description": "Symlinking dotfiles to home directory",
+      "type": "dotfiles",
+      "config": {
+        "source": "dotfiles",
+        "strategy": "symlink"
+      }
+    },
+    {
+      "id": "vscode-extensions",
+      "title": "VS Code Extensions",
+      "description": "Installing VS Code extensions",
+      "type": "vscode-extensions",
+      "config": {
+        "source": "vscode-extensions.txt"
+      }
+    },
+    {
+      "id": "vscode-config",
+      "title": "VS Code Settings",
+      "description": "Copying VS Code settings file",
+      "type": "config-files",
+      "config": {
+        "mappings": [
+          {
+            "source": "app-config/vscode/settings.json",
+            "target": "Library/Application Support/Code/User/settings.json",
+            "targetLinux": ".config/Code/User/settings.json",
+            "targetWin": "AppData/Roaming/Code/User/settings.json",
+            "strategy": "copy"
+          }
+        ]
+      }
+    }
+  ]
+}

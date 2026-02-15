@@ -1,0 +1,34 @@
+# APT Packages (Linux CLI tools)
+# One package per line. Lines starting with # are comments.
+
+# Core Utilities
+coreutils
+binutils
+diffutils
+gnutls-bin
+jq
+parallel
+
+# Development Tools
+gcc
+make
+sed
+graphviz
+python3-yq
+gh
+
+# Programming Languages
+golang-go
+nodejs
+npm
+python3
+python3-pip
+
+# Cloud & Infrastructure
+kubectl
+helm
+terraform
+
+# Containers
+docker.io
+docker-compose

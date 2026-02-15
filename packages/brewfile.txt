@@ -1,0 +1,40 @@
+# Brew Packages (CLI formulae)
+# One package per line. Lines starting with # are comments.
+
+# Core Utilities
+coreutils
+binutils
+diffutils
+gnutls
+jq
+parallel
+
+# Development Tools
+gcc
+make
+gnu-sed
+graphviz
+python-yq
+gh
+
+# Programming Languages
+go
+node
+python@3.11
+
+# Build Tools
+bazelisk
+
+# Cloud & Infrastructure
+kubectl
+helm
+terraform
+hcl2json
+google-cloud-sdk
+
+# Containers
+docker
+docker-compose
+
+# Data
+openblas

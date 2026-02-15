@@ -1,0 +1,14 @@
+# Chocolatey GUI Packages (Windows desktop applications)
+# One package per line. Lines starting with # are comments.
+
+# Code Editors
+vscode
+
+# Terminal
+microsoft-windows-terminal
+
+# Containers
+docker-desktop
+
+# Networking
+tailscale

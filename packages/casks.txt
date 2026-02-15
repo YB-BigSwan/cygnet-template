@@ -1,0 +1,14 @@
+# GUI Applications (Homebrew Casks)
+# One application per line. Lines starting with # are comments.
+
+# Code Editors
+visual-studio-code
+
+# Terminal
+iterm2
+
+# Containers
+docker
+
+# Networking
+tailscale

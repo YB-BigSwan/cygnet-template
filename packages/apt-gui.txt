@@ -1,0 +1,9 @@
+# APT GUI Packages (Linux desktop applications)
+# One package per line. Lines starting with # are comments.
+# Note: Some apps like VS Code need to be installed via .deb or snap instead.
+
+# Code Editors (install VS Code via snap or .deb — see scripts/)
+# code
+
+# Containers
+docker.io

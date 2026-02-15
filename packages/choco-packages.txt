@@ -1,0 +1,29 @@
+# Chocolatey Packages (Windows CLI tools)
+# One package per line. Lines starting with # are comments.
+
+# Core Utilities
+jq
+
+# Development Tools
+gcc
+make
+sed
+graphviz
+gh
+
+# Programming Languages
+golang
+nodejs
+python3
+
+# Build Tools
+bazelisk
+
+# Cloud & Infrastructure
+kubernetes-cli
+kubernetes-helm
+terraform
+
+# Containers
+docker-cli
+docker-compose
