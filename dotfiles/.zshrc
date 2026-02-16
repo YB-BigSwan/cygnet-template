@@ -60,6 +60,7 @@ alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
 alias gl="git log --oneline --graph --decorate"
+alias snowsql="/Applications/SnowSQL.app/Contents/MacOS/snowsql"
 
 # History settings
 HISTSIZE=10000

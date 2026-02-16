@@ -12,3 +12,6 @@ docker
 
 # Networking
 tailscale
+
+#DB
+snowflake-snowsql
