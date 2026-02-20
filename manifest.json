@@ -101,8 +101,8 @@
     },
     {
       "id": "jetbrains-plugins",
-      "title": "IntelliJ IDEA Plugins",
-      "description": "Installing IntelliJ IDEA plugins",
+      "title": "JetBrains Plugins",
+      "description": "Installing JetBrains plugins",
       "type": "jetbrains-plugins",
       "config": {
         "ide": "idea",
