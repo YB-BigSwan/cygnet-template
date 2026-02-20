@@ -3,6 +3,7 @@
 
 # Code Editors
 visual-studio-code
+intellij-idea
 
 # Terminal
 iterm2

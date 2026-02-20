@@ -3,6 +3,7 @@
 
 # Code Editors
 vscode
+intellijidea-community
 
 # Terminal
 microsoft-windows-terminal

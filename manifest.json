@@ -96,7 +96,17 @@
       "description": "Installing VS Code extensions",
       "type": "vscode-extensions",
       "config": {
-        "source": "vscode-extensions.txt"
+        "source": "extensions/vscode.txt"
+      }
+    },
+    {
+      "id": "jetbrains-plugins",
+      "title": "IntelliJ IDEA Plugins",
+      "description": "Installing IntelliJ IDEA plugins",
+      "type": "jetbrains-plugins",
+      "config": {
+        "ide": "idea",
+        "source": "extensions/jetbrains.txt"
       }
     },
     {

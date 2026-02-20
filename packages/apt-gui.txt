@@ -5,5 +5,8 @@
 # Code Editors (install VS Code via snap or .deb — see scripts/)
 # code
 
+# JetBrains (install via Toolbox or snap — see https://www.jetbrains.com/toolbox-app/)
+# intellij-idea-community
+
 # Containers
 docker.io

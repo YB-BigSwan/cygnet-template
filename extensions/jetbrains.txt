@@ -1,0 +1,24 @@
+# JetBrains IntelliJ IDEA Plugins
+# One plugin XML ID per line. Lines starting with # are comments.
+# Find plugin IDs at https://plugins.jetbrains.com/ under "Additional Information"
+
+# Version Control
+org.jetbrains.plugins.github
+
+# Docker
+Docker
+
+# Kubernetes
+com.intellij.kubernetes
+
+# Terraform / HCL
+org.intellij.plugins.hcl
+
+# Go (GoLand functionality in IntelliJ)
+org.jetbrains.plugins.go
+
+# Python (PyCharm functionality in IntelliJ)
+Pythonid
+
+# Catppuccin Theme
+com.github.catppuccin.jetbrains
